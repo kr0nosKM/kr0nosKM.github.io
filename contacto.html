@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Miguel Garc&iacute;a</title>
+        <link rel="icon" type="image/x-icon" href="img/icono.png">
+
+        <!-- Bootstrap CSS en Local -->
+        <link href="css/styles.css" rel="stylesheet">
+        
+        <!-- Propio CSS -->
+        <link href="css/propio.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- https://getbootstrap.com/docs/5.1/components/navs-tabs/ -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="col-12">
+                <ul class="list-inline list-unstyled text-center g-0 mt-2 mb-2 mt-md-3 mb-md-3">
+                    <li class="list-inline-item"><a href="index.html" class="text-secondary fw-bold text-decoration-none fs-3 ms-5">INICIO</a></li>
+                    <li class="list-inline-item"><a href="contacto.html" class="text-secondary fw-bold text-decoration-none fs-3 ms-5">CONTACTO</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid g-0" id="contenedorPrincipal">
+            <header class="row g-0">
+                <div class="col-12 g-0" id="contenidoHeader">
+                    <h1 class="position-absolute display-1 py-3">Miguel García Miró</h1>
+                    
+                    <img src="img/presentacion.png" class="img-fluid border-bottom border-5 border-secondary" alt="network" width="100%">
+                    
+                    <div class="row g-0 border-bottom border-5 border-secondary" id="links">
+                        <ul class="list-inline text-center m-0">
+                            <li class="list-inline-item m-3">
+                                <a href="https://github.com/kr0nosKM">
+                                    <img src="img/github.svg" class="img-fluid bg-secondary rounded p-1" width="100px">
+                                </a>
+                            </li>
+                            <li class="list-inline-item m-3">
+                                <a href="#">
+                                    <img src="img/linkedin.svg" class="img-fluid bg-secondary rounded p-1" width="100px">
+                                </a>
+                            </li>
+                            <li class="list-inline-item m-3">
+                                <a href="contacto.html">
+                                    <img src="img/email.svg" class="img-fluid bg-secondary rounded p-1" width="100px">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <section class="row g-0">
+                <article class="my-2">
+                    <header class="p-md-4 p-2">
+                        <h2 class="m-0 text-white display-4">CONTACTO</h2>
+                    </header>
+                    <form class="mx-3 mx-5-md">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label text-secondary fs-5">Nombre</label>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mail" class="form-label text-secondary fs-5">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="mail">
+                            <div class="form-text">No se va a compartir el email con nadie.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-secondary fs-5">Texto</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary me-3">ENVIAR</button>
+                        <button type="reset" class="btn btn-danger">BORRAR CONTENIDO</button>
+                    </form>
+                </article>
+            </section>
+            <footer class="footer py-2 mt-3 border-top border-2 border-secondary">
+                <p class="m-0 text-center text-secondary">
+                    &copy; 2023 - @kronosKM
+                </p>
+            </footer>
+        </div>
+    </body>
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
