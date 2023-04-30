@@ -31,20 +31,29 @@ li > a:hover{
     text-align: center;
     width: 100%;
     color:rgb(158, 189, 178);
-    /*font-size: 4em;*/
     background-color:#02061298;
 }
 
 @media (max-width: 768px) {
     .display-1 {
-        font-size: 2.5rem !important;
+        font-size: 2rem !important;
     }
     #contenedorPrincipal{
         margin-top: 56px; /*Necesario para que el navbar fixed funcione correctamente*/
     }
+    #contenidoHeader .list-inline img{
+        width: 70px;
+    }
 }
 
-/*#links{
-    height: 100px;
+@media (max-width: 400px) {
+    .display-1 {
+        font-size: 1.2rem !important;
+    }
+    #contenedorPrincipal{
+        margin-top: 56px; /*Necesario para que el navbar fixed funcione correctamente*/
+    }
+    #contenidoHeader .list-inline img{
+        width: 40px;
+    }
 }
-*/
